@@ -34,6 +34,24 @@ The application is built using Kotlin and Compose Multiplatform, with shared bus
 |---|---|
 | ![Safety Tips](screenshots/android-tips.jpeg) | ![Location](screenshots/android-location.jpeg) |
 
+### iOS Application
+
+| Welcome Screen | Home Screen |
+|---|---|
+| ![iOS Welcome](screenshots/ios/ios-welcomescreen.jpeg) | ![iOS Home](screenshots/ios/ios-homescreen.jpeg) |
+
+| Emergency Contacts | Emergency Chat |
+|---|---|
+| ![iOS Contacts](screenshots/ios/ios-contact.jpeg) | ![iOS Chat](screenshots/ios/ios-chat.jpeg) |
+
+| SOS Countdown | My Location |
+|---|---|
+| ![iOS SOS Countdown](screenshots/ios/ios-soscount.jpeg) | ![iOS Location](screenshots/ios/ios-location.jpeg) |
+
+| Safety Tips |
+|---|
+| ![iOS Safety Tips](screenshots/ios/ios-tips.jpeg) |
+
 ## Technology Stack
 
 | Technology | Purpose |
@@ -70,6 +88,10 @@ SafeHer/
 │       ├── commonMain/
 │       ├── androidMain/
 │       └── iosMain/
+├── screenshots/
+│   ├── Android screenshots
+│   └── ios/
+│       └── iOS screenshots
 ├── gradle/
 ├── build.gradle.kts
 └── settings.gradle.kts
