@@ -16,7 +16,23 @@ The application is built using Kotlin and Compose Multiplatform, with shared bus
 
 ## Screenshots
 
-Screenshots of the Android and iOS application will be added here.
+### Android Application
+
+| Welcome Screen | Home Screen |
+|---|---|
+| ![Android Welcome](screenshots/android-welcome.jpeg) | ![Android Home](screenshots/android-homescreen.jpeg) |
+
+| Emergency Contacts | Emergency Chat |
+|---|---|
+| ![Emergency Contacts](screenshots/android-contacts.jpeg) | ![Emergency Chat](screenshots/android-chat.jpeg) |
+
+| SOS Countdown | SOS Screen |
+|---|---|
+| ![SOS Countdown](screenshots/android-soscount.jpeg) | ![SOS Screen](screenshots/android-sos.jpeg) |
+
+| Safety Tips | My Location |
+|---|---|
+| ![Safety Tips](screenshots/android-tips.jpeg) | ![Location](screenshots/android-location.jpeg) |
 
 ## Technology Stack
 
