@@ -1,0 +1,23 @@
+
+CREATE TABLE ChatMessage (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    message TEXT NOT NULL,
+    isSentByMe INTEGER NOT NULL,
+    timestamp TEXT NOT NULL
+);
+
+getAllMessages:
+SELECT *
+FROM ChatMessage
+ORDER BY id ASC;
+
+insertMessage:
+INSERT INTO ChatMessage(message, isSentByMe, timestamp)
+VALUES (?, ?, ?);
+
+deleteMessage:
+DELETE FROM ChatMessage
+WHERE id = ?;
+
+deleteAllMessages:
+DELETE FROM ChatMessage;

@@ -1,0 +1,19 @@
+CREATE TABLE EmergencyContact (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    phoneNumber TEXT NOT NULL,
+    relationship TEXT NOT NULL
+);
+
+getAllContacts:
+SELECT *
+FROM EmergencyContact
+ORDER BY id DESC;
+
+insertContact:
+INSERT INTO EmergencyContact(name, phoneNumber, relationship)
+VALUES (?, ?, ?);
+
+deleteContact:
+DELETE FROM EmergencyContact
+WHERE id = ?;
